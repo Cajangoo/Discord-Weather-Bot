@@ -1,0 +1,18 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "main": "src/bot;js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "cajango.dev",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.103",
+    "discord.js": "^14.16.3"
+  }
+}
