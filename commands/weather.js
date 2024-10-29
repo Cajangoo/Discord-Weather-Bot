@@ -20,7 +20,7 @@ async function getWeather(city) {
 
 
 module.exports = {
-    name: 'weather',
+    name: 'clima',
     description: 'Get the current weather for a city',
     async execute(message, args) {
         const city = args.join(' '); // Concatena os argumentos para formar o nome da cidade
@@ -38,10 +38,10 @@ module.exports = {
 
             // Formata a mensagem com as informações extraídas
             const weatherMessage = `**Clima atual em ${cityName}:**\n` +
-                                   `Temperatura: ${temperature}°C\n` +
-                                   `Condição: ${description}\n` +
-                                   `Umidade: ${humidity}%\n` +
-                                   `Vento: ${windSpeed} m/s`;
+                                   `-**Temperatura:** ${temperature}°C\n` +
+                                   `-**Condição:** ${description}\n` +
+                                   `-**Umidade:** ${humidity}%\n` +
+                                   `-**Vento:** ${windSpeed} m/s`;
             
             message.channel.send(weatherMessage); // Envia a mensagem ao canal
         } catch (error) {

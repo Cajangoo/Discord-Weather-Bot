@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'shutdown',
+    name: 'desligar',
     description: 'Shuts down the bot',
     execute(message) {
         // Checa se o usuário que enviou a mensagem tem permissão para executar o comando
