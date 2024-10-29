@@ -1,10 +1,8 @@
 # Weather Bot.js
 For my first public project.
-
 ________________________________________________________
+⚠️Remember to install de packages.⚠️
 
-
-Remember to install de packages.
 The packages that i use on this project are:
 
 **discord.js**
@@ -22,10 +20,9 @@ ________________________________________________________
 **npm install --save-dev nodemon**
 
 in the terminal at once)
-
-
 ________________________________________________________
-
+⚠️Remember to put on .env the bot token and the API keys.⚠️
+________________________________________________________
 This is how it looks, its especially developed for Brazilian Users, but u can trade "clima" for "weather" and "desligar" for "shutdown" and the names on weatherMessage from PT/BR to EN. 
 
 Make the modifications in ./commands/weather and ./commands/shutdown  paths !!!! 
