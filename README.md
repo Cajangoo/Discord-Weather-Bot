@@ -21,7 +21,7 @@ ________________________________________________________
 
 in the terminal at once)
 ________________________________________________________
-⚠️Remember to put on .env the bot token and the API keys.⚠️
+⚠️Remember to put on .env the discord bot token and the APIs keys.⚠️
 ________________________________________________________
 This is how it looks, its especially developed for Brazilian Users, but u can trade "clima" for "weather" and "desligar" for "shutdown" and the names on weatherMessage from PT/BR to EN. 
 
