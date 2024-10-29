@@ -27,7 +27,7 @@ This is how it looks, its especially developed for Brazilian Users, but u can tr
 
 Make the modifications in ./commands/weather and ./commands/shutdown  paths !!!! 
 
-![image](https://github.com/user-attachments/assets/72930644-dcc2-47b0-9ae1-fe6a33bd5b40)
+![image](https://github.com/user-attachments/assets/905a89a9-8688-4873-9eb6-91c54edfc78f)
 
 Ty to aprecciate my first project !
 ________________________________________________________
